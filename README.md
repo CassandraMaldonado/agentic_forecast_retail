@@ -1,10 +1,10 @@
 Agentic Forecasting + Decision System
-=====================================
+-----
 
 This repository scaffolds a production-style, multi-agent forecasting and decision system suited for demand/capacity/resource planning. 
 
 What’s inside
--------------
+-----
 - Multi-agent loop: DataQuality → Signal → ModelPortfolio → Uncertainty → Decision → Critic.
 - Rolling-origin backtesting with leakage guards.
 - Forecast models: seasonal naive baseline + gradient-boosted regression features; quantile/conformal uncertainty.
