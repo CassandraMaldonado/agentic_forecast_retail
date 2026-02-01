@@ -5,7 +5,7 @@ This repository scaffolds a production-style, multi-agent forecasting and decisi
 
 What’s inside
 -----
-- Multi-agent loop: DataQuality → Signal → ModelPortfolio → Uncertainty → Decision → Critic.
+- Multi-agent loop: DataQuality -> Signal -> ModelPortfolio -> Uncertainty → Decision → Critic.
 - Rolling-origin backtesting with leakage guards.
 - Forecast models: seasonal naive baseline + gradient-boosted regression features; quantile/conformal uncertainty.
 - Decision layer: capacity/budget-aware allocation simulator with cost/risk trade-offs.
