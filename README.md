@@ -1,7 +1,7 @@
 Agentic Forecasting + Decision System
 =====================================
 
-This repository scaffolds a production-style, multi-agent forecasting and decision system suited for demand/capacity/resource planning. It is intentionally lightweight but organized like a FAANG data science project: modular agents, rolling backtests, uncertainty-aware decisions, and clear evaluation across forecasts and downstream actions.
+This repository scaffolds a production-style, multi-agent forecasting and decision system suited for demand/capacity/resource planning. 
 
 What’s inside
 -------------
