@@ -66,5 +66,5 @@ Testing and evaluation
 
 Status
 ------
-This is a scaffold with sane defaults. It is designed to be readable, extensible, and production-friendly—not a leaderboard-tuned solution.
+This is a scaffold with sane defaults. It is designed to be readable, extensible and production-friendly.
 
