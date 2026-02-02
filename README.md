@@ -1,7 +1,7 @@
 Agentic Forecasting + Decision System
 -----
 
-This repository scaffolds a production-style, multi-agent forecasting and decision system suited for demand/capacity/resource planning. 
+This repository scaffolds a production-style, multi-agent forecasting and decision system suited for demand and resource planning. 
 
 What’s inside
 -----
