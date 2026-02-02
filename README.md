@@ -7,7 +7,7 @@ What’s inside
 -----
 - Multi-agent loop: DataQuality -> Signal -> ModelPortfolio -> Uncertainty -> Decision -> Critic.
 - Rolling-origin backtesting with leakage guards.
-- Forecast models: seasonal naive baseline + gradient-boosted regression features; quantile/conformal uncertainty.
+- Forecast models: seasonal naive baseline and gradient-boosted regression features, quantile/conformal uncertainty.
 - Decision layer: capacity/budget-aware allocation simulator with cost/risk trade-offs.
 - Streamlit demo to visualize forecast, intervals, and recommended actions.
 - Documentation: architecture, trade-offs, and evaluation guidance.
