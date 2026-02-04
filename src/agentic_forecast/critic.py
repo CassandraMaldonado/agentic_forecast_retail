@@ -2,11 +2,8 @@ from __future__ import annotations
 
 from typing import Dict, List
 
-
+# Evaluates forecast and decision outcomes then it suggests next actions.
 class CriticAgent:
-    """
-    Evaluates forecast + decision outcomes and suggests next actions.
-    """
 
     def __init__(self, wape_threshold: float = 0.2, coverage_tolerance: float = 0.05):
         self.wape_threshold = wape_threshold
