@@ -18,12 +18,12 @@ Uncertainty
 
 Decision layer
 --------------
-**- Chosen:** constrained allocation with risk penalty and simple simulator; good for capacity/inventory-style decisions.
+- Chosen: constrained allocation with risk penalty and simple simulator; good for capacity/inventory-style decisions.
 - Alternatives: stochastic programming or full RL; more expressive but heavier and data-hungry.
 
 Evaluation
 ----------
-**- Chosen:** rolling-origin backtests, WAPE/sMAPE/MAE, coverage, regret vs oracle, constraint violations.
+- Chosen: rolling-origin backtests, WAPE/sMAPE/MAE, coverage, regret vs oracle, constraint violations.
 - Alternatives: MASE/MAPE variants per hierarchy, probabilistic scores (CRPS); can be added in `evaluation.py`.
 
 Orchestration
