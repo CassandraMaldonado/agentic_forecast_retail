@@ -14,9 +14,9 @@ The system is organized as a loop of specialized agents that transform data into
 
 Interaction diagram (textual)
 -----------------------------
-- DataQualityAgent → (clean data, validation report) → SignalAgent
-- SignalAgent → (feature table, regime flags) → ModelPortfolioAgent
-- ModelPortfolioAgent → (point forecasts, validation residuals) → UncertaintyAgent
+- DataQualityAgent -> (clean data, validation report) -> SignalAgent
+- SignalAgent -> (feature table, regime flags) -> ModelPortfolioAgent
+- ModelPortfolioAgent → (point forecasts, validation residuals) -> UncertaintyAgent
 - UncertaintyAgent → (PIs/quantiles, coverage report) → DecisionAgent
 - DecisionAgent → (decisions, simulated outcomes) → CriticAgent
 - CriticAgent → (actionable feedback: swap model, widen PI, adjust constraint/penalty) → orchestrator, then loop continues
