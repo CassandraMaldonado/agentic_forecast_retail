@@ -19,7 +19,7 @@ Interaction diagram (textual)
 - ModelPortfolioAgent -> (point forecasts, validation residuals) -> UncertaintyAgent
 - UncertaintyAgent -> (PIs/quantiles, coverage report) -> DecisionAgent
 - DecisionAgent -> (decisions, simulated outcomes) -> CriticAgent
-- CriticAgent → (actionable feedback: swap model, widen PI, adjust constraint/penalty) → orchestrator, then loop continues
+- CriticAgent -> (actionable feedback: swap model, widen PI, adjust constraint/penalty) -> orchestrator, then loop continues
 
 Key design choices
 ------------------
