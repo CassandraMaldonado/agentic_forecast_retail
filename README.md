@@ -64,7 +64,3 @@ Testing and evaluation
 - Decision metrics: realized cost, regret vs oracle, constraint violations.
 - Interval diagnostics: coverage vs nominal α, width efficiency.
 
-Status
-------
-This is a scaffold with sane defaults. It is designed to be readable, extensible and production-friendly.
-
