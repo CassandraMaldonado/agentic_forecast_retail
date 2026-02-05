@@ -16,9 +16,9 @@ Interaction diagram (textual)
 -----------------------------
 - DataQualityAgent -> (clean data, validation report) -> SignalAgent
 - SignalAgent -> (feature table, regime flags) -> ModelPortfolioAgent
-- ModelPortfolioAgent → (point forecasts, validation residuals) -> UncertaintyAgent
+- ModelPortfolioAgent -> (point forecasts, validation residuals) -> UncertaintyAgent
 - UncertaintyAgent → (PIs/quantiles, coverage report) → DecisionAgent
-- DecisionAgent → (decisions, simulated outcomes) → CriticAgent
+- DecisionAgent -> (decisions, simulated outcomes) -> CriticAgent
 - CriticAgent → (actionable feedback: swap model, widen PI, adjust constraint/penalty) → orchestrator, then loop continues
 
 Key design choices
