@@ -49,6 +49,7 @@ Repository layout
 Data expectations
 -----------------
 - Tabular time series with columns like: `date`, `item_id`, `store_id`, `y`, plus optional covariates (`price`, `promo`, `event`).
+- Use `dates.csv`, `stores.csv`, `categories.csv`, and `sales.csv` as sample inputs; the pipeline expects a single long-form table and performs basic validation and type coercion.
 
 
 How to extend
