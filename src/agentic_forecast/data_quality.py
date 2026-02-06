@@ -44,9 +44,6 @@ class DataQualityAgent:
         return df, report
 
     def check_leakage(self, train: pd.DataFrame, val: pd.DataFrame) -> None:
-        """
-        Ensure validation set is strictly after train set in time.
-        """
         max_train = train[self.config.time_col].max()
         min_val = val[self.config.time_col].min()
         if min_val <= max_train:
