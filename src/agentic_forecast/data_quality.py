@@ -9,7 +9,7 @@ import pandas as pd
 from .config import DataConfig
 from .utils.data import ensure_datetime
 
-#     Validate schema, missingness, anomalies, and leakage risk.
+# Validating.
 class DataQualityAgent:
 
     def __init__(self, config: DataConfig):
