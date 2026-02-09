@@ -3,7 +3,7 @@ Trade-offs and Alternatives
 
 Scope vs realism
 ----------------
-- Chosen: lean scaffolding with clear agent seams; minimal dependencies (pandas, numpy, scikit-learn, xgboost, streamlit).
+- Chosen: lean scaffolding with clear agent seams.
 - Alternative: full feature store + workflow orchestration (Airflow/Flyte); skipped to keep footprint small.
 
 Model portfolio
