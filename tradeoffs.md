@@ -8,8 +8,8 @@ Scope vs realism
 
 Model portfolio
 ---------------
-- Chosen: seasonal naive + gradient-boosted regression with calendar/event features; fast to train, strong baselines.
-- Alternatives: Prophet, SARIMA, TFT/DeepAR; not included to avoid heavy dependencies and GPU needs.
+- Chosen: seasonal naive and gradient-boosted regression with calendar/event features, fast to train, strong baselines.
+- Alternatives: Prophet, SARIMA, TFT/DeepAR, not included to avoid heavy dependencies and GPU needs.
 
 Uncertainty
 -----------
