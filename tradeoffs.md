@@ -4,7 +4,7 @@ Trade-offs and Alternatives
 Scope vs realism
 ----------------
 - Chosen: lean scaffolding with clear agent seams.
-- Alternative: full feature store and workflow orchestration, skipped to keep footprint small.
+- Alternative: full feature store and workflow orchestration.
 
 Model portfolio
 ---------------
