@@ -28,6 +28,6 @@ Evaluation
 
 Orchestration
 -------------
-- Chosen: lightweight custom router (LangGraph-style) with explicit handoffs.
-- Alternatives: true LangGraph/LangChain or microservice agents; adopted later once interfaces stabilize.
+- Chosen: lightweight custom router with explicit handoffs.
+- Alternatives: true LangChain or microservice agents, adopted later once interfaces stabilize.
 
