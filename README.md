@@ -9,8 +9,8 @@ What’s inside
 - Rolling-origin backtesting with leakage guards.
 - Forecast models: seasonal naive baseline and gradient-boosted regression features, quantile/conformal uncertainty.
 - Decision layer: capacity/budget-aware allocation simulator with cost/risk trade-offs.
-- Streamlit demo to visualize forecast, intervals, and recommended actions.
-- Documentation: architecture, trade-offs, and evaluation guidance.
+- Streamlit demo to visualize forecast, intervals and recommended actions.
+- Documentation: architecture, trade-offs and evaluation guidance.
 
 Quick start
 -----------
