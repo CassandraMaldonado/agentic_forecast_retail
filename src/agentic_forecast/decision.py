@@ -9,10 +9,8 @@ import pandas as pd
 from .config import DecisionConfig
 
 
+# converting forecasts to constrained allocations to simulate outcomes.
 class DecisionAgent:
-    """
-    Converts forecasts into constrained allocations and simulates outcomes.
-    """
 
     def __init__(self, config: DecisionConfig):
         self.config = config
