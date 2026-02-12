@@ -46,11 +46,9 @@ class DecisionAgent:
         policy_info.update(sim["summary"])
         return df, policy_info
 
+
+# samples demand from a truncated normal centered at forecast with spread informed by the interval width.
     def simulate_outcomes(self, df: pd.DataFrame, samples: int = 1000) -> Dict:
-        """
-        Simple simulator: sample demand from a truncated normal centered at forecast
-        with spread informed by the interval width.
-        """
         allocations = df["allocation"].values
         mean = df["forecast"].values
         spread = (df["upper"] - df["lower"]).values / 2 + 1e-3
