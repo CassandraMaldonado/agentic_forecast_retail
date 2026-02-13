@@ -36,7 +36,7 @@ def run_pipeline(
     backtest_results = portfolio.backtest(features)
     best = portfolio.fit_best(features)
 
-    # Use last horizon rows as a simple "future" placeholder
+    # last horizon rows as a placeholder.
     future = features.tail(config.data.horizon).copy()
     point_preds = portfolio.predict(future)
 
