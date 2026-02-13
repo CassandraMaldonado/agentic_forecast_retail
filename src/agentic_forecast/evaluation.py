@@ -41,4 +41,3 @@ def regret_vs_oracle(costs: pd.Series, oracle_cost: float) -> float:
 
 def violation_rate(violations: pd.Series) -> float:
     return float((violations > 0).mean())
-
