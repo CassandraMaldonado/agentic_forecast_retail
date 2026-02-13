@@ -21,7 +21,7 @@ class BacktestResult:
     model_name: str
 
 
-# Manages multiple forecasting models and rolling-origin evaluation.
+# manage multiple forecasting models and eval.
 class ModelPortfolioAgent:
 
     def __init__(
