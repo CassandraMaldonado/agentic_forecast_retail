@@ -9,10 +9,9 @@ from .evaluation import coverage
 from .models.quantile import QuantileGradientBoosting, conformalize_interval
 
 
+# produces calibrated prediction intervals via quantile and conformal.
+
 class UncertaintyAgent:
-    """
-    Produces calibrated prediction intervals via quantile + conformal.
-    """
 
     def __init__(self, alpha: float = 0.1):
         self.alpha = alpha
