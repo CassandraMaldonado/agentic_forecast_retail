@@ -10,10 +10,8 @@ from .config import DataConfig
 from .utils.data import add_time_features, ensure_datetime
 
 
+# decomposing seasonality, detecting regime shifts and create features.
 class SignalAgent:
-    """
-    Decompose trend/seasonality, detect regime shifts, and create features.
-    """
 
     def __init__(self, config: DataConfig):
         self.config = config
