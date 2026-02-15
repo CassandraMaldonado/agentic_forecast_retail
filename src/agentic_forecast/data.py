@@ -52,8 +52,6 @@ def rolling_origin_splits(
         train, val = train_test_split_time(df, time_col, cutoff)
         val = val[val[time_col] <= cutoff + pd.Timedelta(days=val_size)]
         yield train, val
-
-
 def wape(y_true: np.ndarray, y_pred: np.ndarray) -> float:
     denom = np.sum(np.abs(y_true)) + 1e-8
     return float(np.sum(np.abs(y_true - y_pred)) / denom)
